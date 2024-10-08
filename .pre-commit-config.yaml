@@ -1,19 +1,19 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v5.0.0
     hooks:
     - id: check-yaml
-      stages: [commit]
+      stages: [Nonepre-commitNone]
     - id: check-json
-      stages: [commit]
+      stages: [Nonepre-commitNone]
     - id: check-toml
-      stages: [commit]
+      stages: [Nonepre-commitNone]
     - id: check-merge-conflict
-      stages: [commit]
+      stages: [Nonepre-commitNone]
     - id: check-case-conflict
-      stages: [commit]
+      stages: [Nonepre-commitNone]
     - id: detect-private-key
-      stages: [commit]
+      stages: [Nonepre-commitNone]
   - repo: https://github.com/crate-ci/committed
     rev: v1.0.20
     hooks:
