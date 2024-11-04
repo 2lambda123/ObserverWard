@@ -15,7 +15,7 @@ repos:
     - id: detect-private-key
       stages: [Nonepre-commitNone]
   - repo: https://github.com/crate-ci/committed
-    rev: v1.0.20
+    rev: v1.1.1
     hooks:
     - id: committed
       stages: [commit-msg]
